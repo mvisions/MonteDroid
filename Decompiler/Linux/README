@@ -1,0 +1,39 @@
+--------------------------------------------------------
+please read original readme FIRST!!
+--------------------------------------------------------
+
+This is the linux binary release of the Boomerang decompiler version alpha 0.3.
+
+	http://boomerang.sourceforge.net/
+
+You can get source code for this release from the Boomerang CVS, tag alpha-0_3.
+The majority of this release is under the terms stated in LICENSE.TERMS.
+However, the binary boomerang-gui is linked to the Qt4 library which is under
+the terms stated in LICENSE.GPL.  Please ensure that you understand these 
+terms before redistributing this archive.
+
+There are a number of dependencies that must be met before these binaries will
+run.  You will need:
+
+	libgc
+	libexpat
+
+On a debian system you can usually just do:
+
+	apt-get install libgc1c2 libexpat
+
+For the GUI you need:
+
+	the debug libraries for Qt4.
+
+I built Qt4 from source, but you may be able to use a package for your distribution.
+
+Happy decompiling.
+
+Trent Waddington
+13/June/2006
+
+
+--------------------------------------------------------
+so this run on Ubuntu,Debian ALL LINUX OS!
+--------------------------------------------------------
